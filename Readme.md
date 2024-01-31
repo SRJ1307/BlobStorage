@@ -11,7 +11,7 @@ License: https://bootstrapmade.com/license/
   3. For resource group, you can choose any existing resource group or create a new one, i created a new one, lets name it "StorageWebsite".
   4. Now for storage account name, you need to give sunique name, it should be unique in whole Azure space, i give it "website123456".
   5. In next section which is advanced under Access Tier choose "cool" since, it used to infrequent accessed data.
-  6. In networking section, make sure "Network Access" i set to public.
+  6. In networking section, make sure "Network Access" is set to public.
   7. Now in Encryption section make "Enable support for customer-managed keys" to All service types.
   8. Now review and create it.
 
@@ -28,7 +28,7 @@ Once you storage account is created, let's make some changes in it.
   1. Open the storage account.
   2. In left pane of storage account, under data management search for static website option.
   3. Select that static website option, inside this enable the static website flag.
-  4. For index document name provide the name of you index file for me it is index.html.
+  4. For index document name provide the name of your index file for me it is index.html.
   5. For error document path either you can provide error.html or you can leave it blank.
   6. Now click on save and save it.
   7. Under left pane search for container option.
